@@ -30,6 +30,28 @@ a:hover {
   align-items: flex-start;
 }
 
+/*
+ * Текст
+ */
+
+.h {
+  font-family: 'Dela Gothic One';
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+p {
+  width: 667px;
+  margin-bottom: 16px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 .right {
   text-align: right;
 }
