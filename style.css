@@ -49,7 +49,9 @@ a:hover {
   border-radius: 8px;
   padding: 7px 24px;
   line-height: normal;
-  font-size: inherit;
+  font-size: 18px;
+  font-family: 'Fira Sans';
+  font-weight: normal;
   transition-property: color, background-color, border-color;
   transition-duration: .3s;
   transition-timing-function: ease-out;
