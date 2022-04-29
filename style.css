@@ -452,3 +452,25 @@ a.menu__link:hover {
   display: block;
   margin-top: 4px;
 }
+
+/* Этаж вопросов */
+
+.questions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 28px;
+}
+
+.question {
+  width: 436px;
+}
+
+.question__header {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.question__text {
+  display: block;
+}
