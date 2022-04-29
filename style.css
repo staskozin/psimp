@@ -158,6 +158,10 @@ a:hover {
   margin-bottom: 16px;
 }
 
+.h_big-margin-top {
+  margin-top: 64px;
+}
+
 .h_button {
   display: flex;
 }
@@ -194,6 +198,7 @@ p:last-child {
   font-size: 20px;
   letter-spacing: 0.02em;
   background-color: #ffffff;
+  z-index: 1;
 }
 
 .logo {
@@ -395,4 +400,55 @@ a.menu__link:hover {
 .services__price {
   display: block;
   font-size: 28px;
+}
+
+/* Этаж преимуществ */
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 24px;
+}
+
+.advantage {
+  width: 280px;
+}
+
+.advantage__img {
+  position: relative;
+  display: block;
+}
+
+.advantage__img_diag {
+  left: -33px;
+}
+
+.advantage__img_guarantee {
+  left: -43px;
+}
+
+.advantage__img_parts {
+  left: -31px;
+}
+
+.advantage__img_money {
+  left: -31px;
+}
+
+.advantage__img_time {
+  left: -38px;
+}
+
+.advantage__header {
+  display: block;
+  font-family: 'Dela Gothic One';
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+
+.advantage__text {
+  display: block;
+  margin-top: 4px;
 }
