@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Fira Sans';
+  src: url(FiraSans-Light.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url(FiraSans-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url(FiraSans-Medium.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Dela Gothic One';
+  src: url(DelaGothicOne-Regular.ttf);
+}
