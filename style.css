@@ -12,8 +12,9 @@ a {
   transition-duration: .3s;
   transition-timing-function: ease-out;
 }
+
 a:hover {
-  color: #8579E1;
+  color: #9b91e6;
   transition: none;
 }
 
@@ -22,13 +23,22 @@ a:hover {
   margin: 0 auto;
 }
 
-.container_header {
+.header .container,
+.footer .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-header {
+.right {
+  text-align: right;
+}
+
+/*
+ * Шапка
+ */
+
+.header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,6 +47,7 @@ header {
   font-family: 'Dela Gothic One';
   font-size: 20px;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 .logo {
@@ -60,6 +71,8 @@ header {
 
 .menu {
   display: flex;
+  position: relative;
+  left: 16px;
 }
 
 .menu__link {
@@ -71,4 +84,59 @@ header {
 a.menu__link:hover {
   color: #4937d2;
   background-color: #e4e1f8;
+}
+
+/*
+ * Футер
+ */
+
+.footer {
+  margin-top: 80px;
+  padding-top: 14px;
+  border-top: 1px solid #b4b4b4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__logo span {
+  font-family: 'Dela Gothic One';
+  font-size: 24px;
+  line-height: normal;
+  letter-spacing: 0.02em;
+  color: #b4b4b4;
+  margin-left: 6px;
+}
+
+.footer__sign {
+  font-family: 'Dela Gothic One';
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #b4b4b4;
+  display: block;
+  margin-top: 10px;
+}
+
+.footer__sign a {
+  color: #9b91e6;
+}
+
+.footer__sign a:hover {
+  color: #aea6e9;
+}
+
+.footer__text {
+  display: block;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.footer__text-wrap {
+  margin-top: 16px;
 }
