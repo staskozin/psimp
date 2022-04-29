@@ -162,3 +162,28 @@ a.menu__link:hover {
 .footer__text-wrap {
   margin-top: 16px;
 }
+
+/*
+ * Контакты
+ */
+
+.contacts {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.contacts__value {
+  display: block;
+}
+
+.map {
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+}
