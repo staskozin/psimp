@@ -2,7 +2,11 @@ body {
   font-family: 'Fira Sans';
   font-size: 18px;
   line-height: 28px;
-  padding: 88px 0 48px;
+  padding: 78px 0 48px;
+}
+
+h1 {
+  margin: 0;
 }
 
 a {
@@ -295,4 +299,29 @@ a.menu__link:hover {
 .map {
   border: 1px solid #b4b4b4;
   border-radius: 8px;
+}
+
+/*
+ * Первый этаж на главной
+ */
+
+.first-floor {
+  margin-top: 32px;
+  height: 561px;
+  background-image: url(img/laptop-bsod.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.first-floor h1 {
+  font-family: 'Dela Gothic One';
+  font-size: 62px;
+  line-height: 74px;
+  letter-spacing: 0.02em;
+}
+
+.first-floor span {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
