@@ -158,6 +158,15 @@ a:hover {
   margin-bottom: 16px;
 }
 
+.h_button {
+  display: flex;
+}
+
+.h_button .button {
+  margin-left: 32px;
+  margin-top: 11px;
+}
+
 p {
   width: 667px;
   margin-bottom: 16px;
@@ -304,8 +313,10 @@ a.menu__link:hover {
 }
 
 /*
- * Первый этаж на главной
+ * Главная
  */
+
+/* Первый этаж */
 
 .first-floor {
   margin-top: 32px;
@@ -326,4 +337,62 @@ a.menu__link:hover {
   display: block;
   margin-top: 16px;
   margin-bottom: 24px;
+}
+
+/* Этаж услуг */
+
+.services-floor {
+  background-color: #4937d2;
+  margin-top: 32px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+
+.services-floor .h {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.services {
+  margin-top: 40px;
+}
+
+.services:first-of-type {
+  margin-top: 32px;
+}
+
+.services hr {
+  height: 1px;
+  border: none;
+  background-color: rgba(255, 255, 255, .5);
+  margin: 8px 0;
+}
+
+.services__header {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.services__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 24px;
+}
+
+.services__item {
+  width: 280px;
+}
+
+.services__name {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.services__price {
+  display: block;
+  font-size: 28px;
 }
