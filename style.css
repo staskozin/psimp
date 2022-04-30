@@ -529,6 +529,7 @@ a.menu__link:hover {
 }
 
 input[type="text"],
+textarea,
 select {
   box-sizing: border-box;
   width: 222px;
@@ -536,6 +537,11 @@ select {
   border: 1px solid #b4b4b4;
   border-radius: 8px;
   line-height: 28px;
+}
+
+textarea {
+  width: 476px;
+  min-height: 179px;
 }
 
 input[type="text"]::placeholder {
@@ -572,7 +578,7 @@ input[type="checkbox"] {
   appearance: none;
   width: 24px;
   height: 24px;
-  border: 1px solid #999;
+  border: 1px solid #b4b4b4;
   border-radius: 6px;
   margin: 0 8px 0 0;
 }
@@ -588,11 +594,16 @@ input[type="checkbox"]:checked+.checkmark {
   display: block;
 }
 
+.checkbox-group {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Радиокнопки */
 
 .radiobuttons {
   display: flex;
-  border:1px solid #b4b4b4;
+  border: 1px solid #b4b4b4;
   border-radius: 8px;
   box-sizing: border-box;
   height: 40px;
@@ -663,4 +674,20 @@ input[type="checkbox"]:checked+.checkmark {
 .fieldset_computer .fieldset__content {
   display: flex;
   column-gap: 32px;
+}
+
+.fieldset_problems .checkbox-group {
+  margin-top: 24px;
+}
+
+.fieldset_problems .checkbox-group .checkbox {
+  margin-bottom: 8px;
+}
+
+.fieldset_problems .checkbox-group .checkbox:last-child {
+  margin-bottom: 0;
+}
+
+.fieldset_problems .checkbox-group .label > span {
+  margin-bottom: 8px;
 }

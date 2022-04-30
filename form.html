@@ -82,13 +82,111 @@
                 <span>Ноутбук</span>
               </label>
             </div>
-            
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="fieldset fieldset_problems">
+        <legend>Описание проблем</legend>
+        <hr>
+        <div class="fieldset__content">
+          <label class="label">
+            <span>Рассказ о проблемах</span>
+            <textarea name="problemDescription" placeholder="Я что-то нажал и исчезло всё..."></textarea>
+          </label>
+          <div class="checkbox-group">
+            <div class="label">
+              <span>Не работают устройства</span>
+              <label class="checkbox">
+                <input name="devicePrinter" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Принтер/сканер</span>
+              </label>
+              <label class="checkbox">
+                <input name="deviceSpeakers" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Наушники/колонки</span>
+              </label>
+              <label class="checkbox">
+                <input name="deviceHDD" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Жёсткий диск</span>
+              </label>
+              <label class="checkbox">
+                <input name="deviceCD" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Дисковод</span>
+              </label>
+              <label class="checkbox">
+                <input name="devicePower" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Блок питания</span>
+              </label>
+            </div>
+            <div class="label">
+              <span>Общие проблемы</span>
+              <label class="checkbox">
+                <input name="commonBIOS" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Проблемы с BIOS</span>
+              </label>
+              <label class="checkbox">
+                <input name="commonVirus" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Заражён вирусами</span>
+              </label>
+              <label class="checkbox">
+                <input name="commonLag" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Зависает/тормозит</span>
+              </label>
+              <label class="checkbox">
+                <input name="commonNoStart" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Не включается</span>
+              </label>
+              <label class="checkbox">
+                <input name="commonLongStart" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Долго включается</span>
+              </label>
+            </div>
+            <div class="label">
+              <span>Не работают программы</span>
+              <label class="checkbox">
+                <input name="programOffice" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>MS Office (Excel, Word)</span>
+              </label>
+              <label class="checkbox">
+                <input name="programAdobe" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Photoshop</span>
+              </label>
+              <label class="checkbox">
+                <input name="programOther" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Другая</span>
+              </label>
+            </div>
+            <div class="label">
+              <span>Интернет</span>
+              <label class="checkbox">
+                <input name="internetNoWiFi" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Не работает Wi-Fi</span>
+              </label>
+              <label class="checkbox">
+                <input name="internetNotWorking" type="checkbox">
+                <img class="checkmark" src="icon/check.svg" alt="Галочка">
+                <span>Не работает интернет</span>
+              </label>
+            </div>
           </div>
         </div>
       </fieldset>
       <div class="form__buttons">
         <label class="checkbox">
-          <input type="checkbox" required>
+          <input name="policyAccepted" type="checkbox" required>
           <img class="checkmark" src="icon/check.svg" alt="Галочка">
           <span>Я принимаю <a href="policy.html">политику конфиденциальности</a></span>
         </label>
