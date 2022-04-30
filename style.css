@@ -5,8 +5,10 @@ body {
   padding: 78px 0 48px;
 }
 
-h1 {
+h1,
+h2 {
   margin: 0;
+  line-height: normal;
 }
 
 a {
@@ -176,9 +178,11 @@ hr {
   margin-top: 11px;
 }
 
-p {
+p,
+ul {
   width: 667px;
   margin-bottom: 16px;
+  padding: 0;
 }
 
 p:last-child {
