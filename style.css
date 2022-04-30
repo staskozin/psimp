@@ -522,6 +522,10 @@ a.menu__link:hover {
   display: block;
 }
 
+.label_disabled {
+  color: #b4b4b4;
+}
+
 .label>span {
   display: block;
   font-weight: bold;
