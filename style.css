@@ -532,6 +532,15 @@ a.menu__link:hover {
   margin-bottom: 4px;
 }
 
+.label__caption {
+  font-weight: 300 !important;
+  margin-bottom: 0 !important;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: normal;
+  color: #333333;
+}
+
 input[type="text"],
 textarea,
 select {
