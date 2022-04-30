@@ -558,7 +558,8 @@ textarea {
   min-height: 179px;
 }
 
-input[type="text"]::placeholder {
+input[type="text"]::placeholder,
+textarea::placeholder {
   color: #b4b4b4;
   opacity: 1;
 }
