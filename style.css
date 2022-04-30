@@ -553,6 +553,10 @@ input[type="text"]::placeholder {
   opacity: 1;
 }
 
+input[type="text"]:disabled {
+  color: #b4b4b4;
+}
+
 input[type="text"][name="address"] {
   width: 492px;
 }
