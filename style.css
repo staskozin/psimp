@@ -637,6 +637,7 @@ input[type="checkbox"]:checked+.checkmark {
   box-sizing: border-box;
   height: 40px;
   padding: 5px 12px 6px;
+  cursor: pointer;
 }
 
 .radio input:checked+span {
@@ -645,6 +646,7 @@ input[type="checkbox"]:checked+.checkmark {
   border-radius: 8px;
   position: relative;
   padding: 4px 11px 5px;
+  cursor: default;
 }
 
 .radio:first-child input:checked+span {
