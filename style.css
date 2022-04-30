@@ -176,6 +176,7 @@ hr {
 .h_button .button {
   margin-left: 32px;
   margin-top: 11px;
+  letter-spacing: normal;
 }
 
 p,
