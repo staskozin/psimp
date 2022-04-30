@@ -37,24 +37,52 @@
         <legend>Персональные данные</legend>
         <hr>
         <div class="fieldset__content">
-          <label>
+          <label class="label">
             <span>Имя</span>
-            <input type="text" placeholder="Константин">
+            <input type="text" name="name" placeholder="Константин">
           </label>
-          <label>
+          <label class="label">
             <span>Телефон</span>
-            <input type="text" placeholder="+7 123 456-78-90">
+            <input type="text" name="phone" placeholder="+7 123 456-78-90">
           </label>
           <div>
-            <label>
+            <label class="label">
               <span>Адрес</span>
               <input type="text" name="address" placeholder="г. Москва, ул. Пушкина, д. Колотушкина">
             </label>
             <label class="checkbox">
-              <input type="checkbox">
+              <input type="checkbox" name="visit">
               <img class="checkmark" src="icon/check.svg" alt="Галочка">
               <span>Нужен выезд на дом</span>
             </label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="fieldset fieldset_computer">
+        <legend>Информация о компьютере</legend>
+        <hr>
+        <div class="fieldset__content">
+          <label class="label">
+            <span>Операционная система</span>
+            <select name="os">
+              <option value="windows">Windows</option>
+              <option value="macos">macOS</option>
+              <option value="linux">Linux</option>
+            </select>
+          </label>
+          <div class="label">
+            <span>Тип компьютера</span>
+            <div class="radiobuttons">
+              <label class="radio">
+                <input name="computerType" type="radio" value="desktop" checked>
+                <span>Системный блок</span>
+              </label>
+              <label class="radio">
+                <input name="computerType" type="radio" value="laptop">
+                <span>Ноутбук</span>
+              </label>
+            </div>
+            
           </div>
         </div>
       </fieldset>
