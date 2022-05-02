@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #9b91e6;
+  color: #7d71db;
   transition: none;
 }
 
@@ -625,7 +625,7 @@ input[type="checkbox"]:checked+.checkmark {
   border: 1px solid #b4b4b4;
   border-radius: 8px;
   box-sizing: border-box;
-  height: 40px;
+  height: 42px;
 }
 
 .radio input {
@@ -636,8 +636,8 @@ input[type="checkbox"]:checked+.checkmark {
 .radio span {
   display: block;
   box-sizing: border-box;
-  height: 40px;
-  padding: 5px 12px 6px;
+  height: 42px;
+  padding: 6px 12px;
   cursor: pointer;
 }
 
@@ -646,7 +646,7 @@ input[type="checkbox"]:checked+.checkmark {
   border: 2px solid #4937d2;
   border-radius: 8px;
   position: relative;
-  padding: 4px 11px 5px;
+  padding: 5px 11px;
   cursor: default;
 }
 
